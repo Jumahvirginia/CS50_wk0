@@ -26,3 +26,9 @@ print(round(z, 2)) #Rounds to 2 decimal places
 
 
 print(f"{z:,}")     #Formats the number with commas as thousand separators eg 1,000,000
+
+#Division
+x = int(input("Enter x: ")) 
+y = int(input("Enter y: "))
+z = x / y          #Standard division;result is always a float
+print(z)
