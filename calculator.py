@@ -32,3 +32,6 @@ x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 z = x / y          #Standard division;result is always a float
 print(z)
+
+z = x // y         #Floor division;result is rounded down to the nearest integer
+print(z)
